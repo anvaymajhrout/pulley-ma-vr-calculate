@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mechanical Advantage Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <form id="calculator-form" class="form">
+      <h2>Mechanical Advantage Calculator</h2>
+      <input type="number" id="numFixedPulleys" class="input" placeholder="Number of Fixed Pulleys" min="0" required>
+      <input type="number" id="numMovablePulleys" class="input" placeholder="Number of Movable Pulleys" min="0" required>
+      <button type="button" onclick="calculate()">Calculate</button>
+      <div id="result" class="result"></div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
